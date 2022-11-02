@@ -14,3 +14,15 @@ function hide(){
     }
 
 }
+
+var pass= document.querySelector(".password");
+const borde= document.querySelector("#border");
+function bold(){
+    if(borde.value){
+        pass.style.borderBottom="4px solid #111";
+        borde.value="off";
+    }else{
+        pass.style.borderBottom="4px solid #333";
+        borde.value="on";
+    }
+}
