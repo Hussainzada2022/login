@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="content">
+        <div class="user">
+            
+        </div>
+        
+        <form>
+            <input type="text" name="user" class="inpt" placeholder="  User name...">
+            <div class="password" onclick="bold();">
+               <input type="password" name="password" class="inpt-pass" placeholder="  Password...">
+               <input type="checkbox"  id="check">
+               <input type="checkbox"  id="border">
+               <span class="hide" onclick="hide();"><img src="show.png" alt="showPassword"></span> 
+            </div>
+            <button class="btn">Login</button>
+            <button class="btn">Sign in</button>
+        </form>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

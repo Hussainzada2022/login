@@ -1,0 +1,70 @@
+.content{
+    width: 30%;
+    height:auto;
+    margin:10% auto;
+    box-shadow: 1px 2px 5px #3333;
+    border-radius: 10px;
+}
+.user{
+    border-radius: 50%;
+    width: 60%;
+    height:50%;
+    border-left: 1px solid #3333;
+    margin:5% auto;
+    box-shadow: 2px 2px 5px #3333;
+}
+.user-photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.inpt{
+    width:90%;
+    margin:2% 5%;
+    height:5vh;
+    border:none;
+    outline: none;
+    border-bottom: 4px solid #3333;
+}
+.password{
+    width: 90%;
+    margin: 2% 5%;
+    height: 5vh;
+    padding-bottom: 0%;
+     border-bottom: 4px solid #3333;
+}
+#border{
+    display: none;
+}
+.inpt-pass{
+    width: 85%;
+    height: 90%;
+    border:none;
+    display: inline;
+    float: left;
+    outline: none;
+}
+.inpt:focus{
+    border-bottom: 4px solid #111;
+}
+
+.hide{
+    margin-top: auto;
+}
+#check{
+    display: none;
+}
+.btn{
+    width:10vh;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(50, 5, 167);
+    color:white;
+    margin:2% 3%;
+}
+.btn:hover{
+    border:2px solid black;
+    box-shadow: 3px 2px 1px #3333;
+}
